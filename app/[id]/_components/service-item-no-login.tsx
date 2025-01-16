@@ -112,7 +112,7 @@ const ServiceItemNoLogin = ({ service, barbershop }: ServiceItemProps) => {
   const handleTelefoneChange = (e) => setTelefone(e.target.value);
   //const phone = useState<string | undefined>('')
 
-  useEffect(() => {
+  {/*useEffect(() => {
     const fetch = async () => {
       if (!selectedDay) return
       const bookings = await getBookings({
@@ -123,7 +123,7 @@ const ServiceItemNoLogin = ({ service, barbershop }: ServiceItemProps) => {
       setDayBookings(bookings)
     }
     fetch()
-  }, [selectedDay, service.id])
+  }, [selectedDay, service.id])*/}
 
   const selectedDate = useMemo(() => {
     if (!selectedDay || !selectedTime) return

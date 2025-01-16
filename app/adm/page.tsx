@@ -5,7 +5,6 @@ import { ptBR } from "date-fns/locale";
 import { useEffect, useState } from "react";
 import { Barbershop, BarbershopService, Booking } from "@prisma/client";
 import { getBookingsListConcluded } from "./_components/booking-list-concluded";
-//import BookingItemAdm from "../_components/booking-item-adm";
 import { getBookingsListConfirmed } from "./_components/booking-list-confirmed";
 import BookingItemAdm from "./_components/booking-item-adm";
 

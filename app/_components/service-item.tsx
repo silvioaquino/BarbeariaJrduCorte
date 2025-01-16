@@ -111,7 +111,7 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
 
 
 
-  useEffect(() => {
+  {/*useEffect(() => {
     const fetch = async () => {
       if (!selectedDay) return
       const bookings = await getBookings({
@@ -121,7 +121,7 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
       setDayBookings(bookings)
     }
     fetch()
-  }, [selectedDay, service.id])
+  }, [selectedDay, service.id])*/}
 
   const selectedDate = useMemo(() => {
     if (!selectedDay || !selectedTime) return
